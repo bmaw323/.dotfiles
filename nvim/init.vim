@@ -2,10 +2,8 @@ call plug#begin('~\AppData\Local\nvim\plugged')
 
 " Colorschemes..
 "Plug 'rktjmp/lush.nvim'
-"Plug 'npxbr/gruvbox.nvim'
-"Plug 'morhetz/gruvbox'
-"Plug 'gruvbox-community/gruvbox'
-Plug 'nightsense/carbonized'
+Plug 'gruvbox-community/gruvbox'
+"Plug 'nightsense/carbonized'
 "Plug 'ray-x/aurora'
 
 "Plug 'cloudhead/neovim-fuzzy'
@@ -24,9 +22,9 @@ Plug 'kyazdani42/nvim-web-devicons'
 
 call plug#end()
 
-colorscheme carbonized-dark
+"colorscheme carbonized-dark
 "set background=dark
-"colorscheme gruvbox
+colorscheme gruvbox
 "colorscheme aurora
 
 set nowrap
@@ -34,8 +32,8 @@ set termguicolors
 
 let mapleader=";"
 
-" turn on line numbers
-set number
+" turn on line numbers - use "hybrid" mode
+set number relativenumber
 
 " set indents to be 4 spaces
 set tabstop=4           " The width of a TAB is set to 4.
