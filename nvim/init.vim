@@ -6,7 +6,6 @@ Plug 'gruvbox-community/gruvbox'
 "Plug 'nightsense/carbonized'
 "Plug 'ray-x/aurora'
 
-"Plug 'cloudhead/neovim-fuzzy'
 Plug 'OmniSharp/omnisharp-vim'
 
 " Fuzzy Finding
