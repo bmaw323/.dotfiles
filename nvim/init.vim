@@ -43,3 +43,9 @@ set expandtab           " Expand TABs to spaces
 set smarttab
 
 set scrolloff=6
+
+" ctrl-s to save in normal and insert modes
+nnoremap <C-s> :w<CR>
+inoremap <C-s> <Esc>:w<CR>
+
+command! BufOnly execute '%bdelete|edit #|normal `"'
