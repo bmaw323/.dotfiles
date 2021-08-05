@@ -7,6 +7,8 @@ del "%LocalAppData%\nvim\init.vim"
 del "%LocalAppData%\nvim\ginit.vim"
 rd "%LocalAppData%\nvim\plugin"
 
+if not exist "%LocalAppData%\nvim\" mkdir "%LocalAppData%\nvim"
+
 pushd nvim
 
 ::https://www.howtogeek.com/howto/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/
