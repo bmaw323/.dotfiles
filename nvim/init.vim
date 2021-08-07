@@ -43,6 +43,8 @@ set smarttab
 
 set scrolloff=6
 
+set noswapfile
+
 " ctrl-s to save in normal and insert modes
 nnoremap <C-s> :w<CR>
 inoremap <C-s> <Esc>:w<CR>
