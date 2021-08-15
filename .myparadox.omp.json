@@ -45,7 +45,9 @@
             "display_upstream_icon": true,
             "status_colors_enabled": true,
             "local_changes_color": "yellow",
-            "ahead_color": "magenta"
+            "ahead_and_behind_color": "cyan",
+            "behind_color": "lightRed",
+            "ahead_color": "lightMagenta"
           }
         },
         {
