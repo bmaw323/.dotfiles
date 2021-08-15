@@ -35,9 +35,12 @@
         {
           "background": "#95ffa4",
           "foreground": "#193549",
+          //"background": "#0077c2",
+          //"foreground": "#ffffff",
           "powerline_symbol": "",
           "style": "powerline",
           "type": "git",
+          //"type": "poshgit",
           "properties": {
             "display_status": true,
             "display_status_detail": true,
