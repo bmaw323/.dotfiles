@@ -49,4 +49,9 @@ set noswapfile
 nnoremap <C-s> :w<CR>
 inoremap <C-s> <Esc>:w<CR>
 
+" set key mappings for copy and paste from system clipboard
+" https://www.linuxfordevices.com/tutorials/linux/copy-paste-multiple-registers-in-vim
+vnoremap <Leader>y "+y
+nnoremap <Leader>p "+p
+
 command! BufOnly execute '%bdelete|edit #|normal `"'
