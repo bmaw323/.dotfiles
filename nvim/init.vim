@@ -29,7 +29,7 @@ colorscheme gruvbox
 set nowrap
 set termguicolors
 
-let mapleader=";"
+let mapleader=" "
 
 " turn on line numbers - use "hybrid" mode
 set number relativenumber
@@ -48,6 +48,9 @@ set noswapfile
 " ctrl-s to save in normal and insert modes
 nnoremap <C-s> :w<CR>
 inoremap <C-s> <Esc>:w<CR>
+
+" ctrl-a to select all
+nnoremap <C-a> ggvG
 
 " set key mappings for copy and paste from system clipboard
 " https://www.linuxfordevices.com/tutorials/linux/copy-paste-multiple-registers-in-vim
