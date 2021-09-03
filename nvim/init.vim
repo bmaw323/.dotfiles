@@ -1,10 +1,10 @@
 call plug#begin('~\AppData\Local\nvim\plugged')
-
 " Colorschemes..
 "Plug 'rktjmp/lush.nvim'
 Plug 'gruvbox-community/gruvbox'
 "Plug 'nightsense/carbonized'
 "Plug 'ray-x/aurora'
+Plug 'EdenEast/nightfox.nvim'
 
 Plug 'OmniSharp/omnisharp-vim'
 
@@ -23,7 +23,8 @@ call plug#end()
 
 "colorscheme carbonized-dark
 "set background=dark
-colorscheme gruvbox
+colorscheme nightfox
+"colorscheme gruvbox
 "colorscheme aurora
 
 set nowrap
