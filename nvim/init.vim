@@ -19,6 +19,9 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': 'TSUpdate', 'branch': '0.5-compat
 Plug 'hoob3rt/lualine.nvim'
 Plug 'kyazdani42/nvim-web-devicons' 
 
+" NERDTree
+Plug 'preservim/nerdtree'
+
 call plug#end()
 
 "colorscheme carbonized-dark
